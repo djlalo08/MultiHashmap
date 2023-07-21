@@ -1,0 +1,3 @@
+This is the same as making a set of A and set of B, and a set of AB, and associating each A,B pair with its parent (a member in AB) (we don't even have to hash! could just use pointer!)
+
+Then we can query for A, then get A's parent AB, and then get B from there!
